@@ -1,6 +1,8 @@
 function init() {
     var content = "this is greenplant,change to otherplant";
-    document.getElementById("greenplant").innerHTML = content;
+    var plant = document.getElementById("greenplant");
+    plant.innerHTML = content;
+    plant.setAttribute("class", "redtext");
 }
 
-window.onload = init;l
+window.onload = init;
